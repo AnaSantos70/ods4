@@ -1,0 +1,187 @@
+html{ 
+  margin: 0 ;
+  padding: 0;
+}
+body{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+header{
+  background-color: rgb(252, 215, 191);
+  height: 95px;
+  width: 100%;
+  position:fixed;
+  border-style: ridge;
+  border-color: rgb(153, 118, 95)marine;
+ }
+#logo{
+  width:60px;
+  position: absolute;
+  margin: 1%;
+}
+#menu{
+  float:right;
+  margin-right:2%;
+  list-style: none;
+}
+.topo{
+  color:rgb(126, 9, 9);
+  text-decoration: none;
+}
+li{
+  float: left;
+  padding: 20px 10px 20px 10px;
+  margin-right:15px;
+  font-size: 18px;
+}
+#menu li:hover{
+  background-color: rgb(192, 116, 116);
+  border-radius: 10%;
+}
+#b1{
+  background-color: rgb(219, 197, 216);
+  text-align:center;
+  font-size: 30px;
+  padding: 200px 70px 50px 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  background-image:url(fotos/pencils.jpg);
+  background-size:cover ;
+  background-position: 100% 100%;
+  margin-bottom:1px;
+  height: 200px;
+}
+#container{
+  display:flex;
+}
+.educa{
+  padding:5px
+}
+#livro{
+  margin-top: 20px;
+}
+#podemos{
+  text-align: center;
+}
+p{
+  font-family: calisto mt;
+  line-height: 25px;
+  text-align: justify;
+}
+h2{
+  text-align: center;
+}
+.solucao{
+  border:solid 2px rgb(192, 116, 116);
+  border-radius: 5px;
+  width: 130px;
+  height: 120px;
+}
+.acao{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  
+}
+#col{
+  display: flex;
+  padding: 3% 10% 3% 10%;
+  margin-left: 30px;
+  margin-right: 11px;
+  margin-bottom: 10px;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: center;
+ }
+.coluna{
+  text-align: center;
+  float:left;
+  width: 20%;
+  padding: 20px 45px;
+  margin:5px;
+}
+#video{
+  float: left;
+  margin-top:15px;
+  width: 97%;
+  height: 97%;
+  text-align: center;
+  padding: 40px 10px 40px 10px;
+}
+#metas{
+  float: left;
+}
+ul{
+  text-align: justify;
+  line-height: 25px;
+}
+#saiba{
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 8px 15px 8px 15px;
+  border: 1px solid rgb(192, 116, 116);
+  border-radius: 50%;
+  background-color: rgb(192, 116, 116);
+  color :rgb(126, 9, 9)
+}
+#ods{
+  margin-left: 15px;
+  margin-right: 15px;
+  float:left;
+}
+#sobre{
+  width: 94%;
+  float:left;
+  background-color:rgb(246, 244, 247);
+  padding:40px;
+}
+.coluna_dois{
+  float:left ;
+  margin: 15px;
+  width:45%;
+  text-align: center;
+}
+#ref{
+  float:left;
+  padding: 2% 50% 2% 2%;
+  margin: 10px;
+}
+#ref a{
+  text-decoration: none;
+  color: black;
+}
+#foot{
+  float: left;
+  background-color:rgb(252, 215, 191);   
+  padding:20px 5px 20px 0px;
+  border-style: ridge;
+  border-color: rgb(153, 118, 95)marine;
+  text-align: right;
+  width: 99%;
+}
+@media all and (max-width:720px) {
+  html,body{width: 100%;}
+  #menu{
+    visibility: hidden;
+  }
+  #container{
+    display: block;
+    padding: 0;
+    margin: 10px;
+    float: none;
+  }
+  #logodiv{
+    width: 100%;
+    position:relative;
+    text-align: center;
+    margin-left: -40px;
+  }
+  #col{
+    float: left;
+    display: block;
+  }
+  #video{
+    width: 80%;
+  }
+}
